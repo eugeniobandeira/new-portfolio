@@ -1,0 +1,12 @@
+.banner {
+    background-image: url(../img/background/banner.jpeg);
+    height: 100vh;
+}
+
+#carouselExampleDark {
+    width: 320px;
+    height: 300px;
+}
+.carousel-item img {
+    height: 100%;
+}
