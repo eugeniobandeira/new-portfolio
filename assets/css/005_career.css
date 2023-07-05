@@ -158,7 +158,9 @@
 .carreira__descricao {
     padding: 0 0 24px 24px;
 }
-
+.carreira__cargo--periodo {
+    margin: 0;
+}
 @media screen and (min-width:321px) and (max-width:768px) {
     .carreira__titulo {
         font-size: 1.8rem;
