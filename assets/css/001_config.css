@@ -1,8 +1,12 @@
 :root {
     --first-letter-highlight: #ff0157;
+    --main-color: #ff0157;
 }
 .header_section::first-letter {
     color: var(--first-letter-highlight);
+}
+.main-color {
+    color: var(--main-color);
 }
 .img-profile {
         background-color: rgba(211, 211, 211, 0.829); 

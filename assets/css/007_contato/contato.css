@@ -1,0 +1,112 @@
+.contact {
+    height: 100vh;
+    background-image: url('bg-contato.jpg');
+    background-size: cover;
+    background-position: right bottom;
+}
+.contact__titulo {
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 3rem;
+}
+.contact__titulo::first-letter {
+    color: #ff0157;
+}
+.titulo .contact__descricao {
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.contact__formulario h3 {
+    color: black;
+    padding: 10px 0;
+}
+.contact__formulario {
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.096);
+    max-width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* border-radius:  0 0 30px 30px; */
+
+}
+.contact__formulario .inputBox {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact__formulario .inputBox input, .contact__formulario .inputBox textarea {
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline-color: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+    border-radius: 5px;
+}
+.contact__formulario .inputBox input[type='text'] {
+    padding-right: 0;
+}
+.contact__formulario .inputBox textarea {
+    padding-right: 0;
+}
+.contact__formulario .inputBox input[type='submit'] {
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: .5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.contact__formulario .inputBox input[type='submit']:hover {
+    letter-spacing: 5px;
+    
+}
+
+
+
+@media only screen and (min-width:321px) and (max-width:768px) {
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact__formulario {
+        width: 60vw;
+        margin: 0;
+
+    }
+    .contact__descricao {
+        margin-bottom: 30px;
+    }
+    .contact__titulo {
+        font-size: 1.8rem;
+    }
+    .contact .contact__descricao {
+        font-size: 1.4rem;
+    }
+    
+}
+@media screen and (min-width:769px) {
+    .contact__titulo {
+        font-size: 3rem;
+    }
+    .contact__formulario {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
