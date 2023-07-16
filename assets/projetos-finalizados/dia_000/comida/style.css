@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --cor-destaque: yellowgreen;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    overflow-x: hidden;
+}
+/* main {
+    min-width: 280px;
+    max-width: 1200px;
+} */
+p {
+    font-weight: 300;
+    color: #111;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fluxurylaunches.com%2Fwp-content%2Fuploads%2F2016%2F06%2FWorlds-top-10-restaurants.jpeg&f=1&nofb=1&ipt=3b3cc13502addec964b8f68848bc00e2a905debe349198e2316167c2be1073f8&ipo=images');
+    background-size: cover;
+    background-position: center bottom;
+}
+.banner .content {
+    max-width: 900px;
+    text-align: center;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    /* border: 1px solid rgba(255, 255, 255, 0.15); */
+    padding: 20px 0;
+}
+.banner .content h2 {
+    font-size: 5rem;
+    color: #fff;
+    
+}
+.banner .content p {
+    font-size: 1.3rem;
+    color: #fff;
+    
+}
+.btn {
+    font-size: 1em;
+    color: #fff;
+    display: inline-block;
+    background-color: var(--cor-destaque);
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+.btn:hover {
+    letter-spacing: 6px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+}
+header.sticky {
+    background-color: white;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.507);
+}
+header.sticky a {
+    color: black;
+}
+header.sticky .navigation li a {
+    color: #111;
+    font-weight: 500;
+}
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header .logo span {
+    color: var(--cor-destaque);
+}
+header .navigation {
+    position: relative;
+    display: flex;
+}
+header .navigation li {
+    list-style: none;
+    margin-left: 30px;
+}
+header .navigation li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+header .navigation li a:hover {
+    color: var(--cor-destaque);
+}
+section {
+    padding: 20px;
+}
+.row {
+   position: relative; 
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.row .col50 {
+    position: relative;
+    width: 48%;
+}
+.titleText {
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
+.titleText span {
+    color: var(--cor-destaque);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.row .col50 .imgBx {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+.row .col50 .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.col150 .imgBx {
+    display: grid;
+    place-items: center;
+}
+.col150 .imgBx img {
+    max-width: 100%;
+    margin: 30px;
+}
+.menu .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .content .box {
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.11);
+}
+.menu .content .box .imgBx {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .content .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu .content .box .text {
+    padding: 15px 0 5px;
+}
+.menu .content .box .text h3 {
+    font-weight: 400;
+    color: #111;
+    text-align: center;
+}
+.expert .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.expert .content .box {
+    width: 250px;
+    margin: 15px;
+}
+.expert .content .box .imgBx {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.expert .content .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.expert .content .box .text {
+    padding: 15px 0 5px;
+}
+.expert .content .box .text h3 {
+    font-weight: 400;
+    color: #111;
+    text-align: center;
+}
+.testemonials {
+    background: url('b.jpeg');
+    background-size: cover;
+}
+.white .titleText, .white p {
+    color: #fff;
+}
+.testemonials .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.testemonials .content .box {
+    width: 340px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testemonials .content .box .imgBx {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.testemonials .content .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testemonials .content .box .text {
+    text-align: center;
+}
+.testemonials .content .box .text p {
+    color: #666;
+    font-style: italic;
+}
+.testemonials .content .box .text h3 {
+    margin-top: 20px;
+    color: #111;
+    font-size: 1em;
+    color: var(--cor-destaque);
+    font-weight: 600;
+}
+.contact {
+    background: url('ab.jpeg');
+    background-size: cover;
+}
+.contactForm {
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.096);
+    max-width: 500px;
+    margin-top: 50px;
+    border-radius:  0 0 30px 30px;
+}
+.contactForm h3 {
+    color: #111;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactForm .inputBox input, .contactForm .inputBox textarea {
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline-color: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+    border-radius: 5px;
+}
+.contactForm .inputBox input[type='submit'] {
+    font-size: 1em;
+    color: #fff;
+    background-color: var(--cor-destaque);
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: .5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    height: 50px;
+}
+
+@media screen and (max-width: 850px) {
+    header .navigation {
+        display: none;
+    }
+
+}
+@media screen and (min-width: 860px) {
+    header .navigation {
+        display: flex;
+    }
+}
+@media screen and (min-width: 280px) and (max-width: 700px) {
+    #about .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #about .row .col150 .imgBx img{
+        height: 300px;
+        width: 300px;
+        padding-top: 15px;
+    }
+    .banner .content h2 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    section {
+        padding: 50px 100px 0 100px;
+    }
+    
+}

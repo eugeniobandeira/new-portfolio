@@ -1,5 +1,5 @@
 .banner {
-    background-image: url(../img/background/banner.jpeg);
+    background-image: url(../../img/background/banner.jpeg);
     height: 100vh;
 }
 
@@ -8,5 +8,3 @@
     height: 290px;
     overflow: hidden;
 }
-
-
