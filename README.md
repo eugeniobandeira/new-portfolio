@@ -21,8 +21,6 @@ Minhas experiências profissionais foram nas seguintes empresas: GE Oil and Gas,
 
 👩‍💻 Atualmente estou estudando muito para conseguir uma vaga de desenvolvedor front-end
 
-🧠 Estou aprendendo React
-
 
 📫 WhatsApp: (11) 99502-5644 / E-mail: eugeniosb00@proton.me
 
