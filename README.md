@@ -32,7 +32,7 @@ HTML5, CSS3, JavaScript, MySQL
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/meu_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://eugeniobandeira.github.io/portfolio/)
+[![portfolio](https://img.shields.io/badge/Projeto-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://eugeniobandeira.github.io/portfolio/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eugeniosb/)
 
 
@@ -45,12 +45,12 @@ HTML5, CSS3, JavaScript, MySQL
 ## Aprendizados
 
 Antes de iniciar o projeto, eu planejei como seria e como as informações serião organizadas. Feito isso, dei início ao desenvolvimento do layout.
-Então passei a escrever o HTMl e também a estlização do portfólio. Aqui eu aprendi muito sobre responsividade e posicionamento de elemento.
+Então passei a escrever o HTML e também a estlização do portfólio. Aqui eu aprendi muito sobre responsividade e posicionamento de elemento.
 
 Houve momentos que fiquei com dúvida referente ao conteúdo do site apresentar barra de rolagem lateral. No entanto, esse problema foi resolvido utilizando a min-width e max-width para o conteúdo principal. Além disso, para que o conteúdo ocupasse 100% da largura da tela, fiz uso da propriedade overflow-x: hidden, nos elementos html e body.
 
 
-Sempre que tive dúvidas, busquei pesquisar no Stackoverflow, W3School, Mozilla Developers e Youtube.
+Sempre que tive dúvidas, busquei pesquisar no W3School, Mozilla Developers e Youtube.
 
 A sensação de concluir este projeto foi muito boa e estou muito empolgado para os próximos!
 
